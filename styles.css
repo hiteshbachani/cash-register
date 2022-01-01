@@ -2,5 +2,126 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 2.5rem;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+
+
+}
+
+:root {
+
+    --primary-color: #581c87;
+    --bg-color: #faf5ff;
+    --black: #111827;
+
+
+
+
+
+}
+
+
+
+h1, h2 {
+    text-align: center;
+
+
+}
+
+h2 {
+    color: var(--black);
+}
+
+.description {
+    
+    font-size: 1.3rem;
+    color: var(--black);
+    text-align: center;
+   
+}
+
+.input, label{
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+input {
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+    background: transparent;
+    display: block;
+    margin: auto;
+    width: 25vw;
+    height: 2.5vh;
+    padding: 1rem;
+    color: var(--black);
+    font-weight: bold;
+}
+
+
+.check-button{
+    display: block;
+    margin: 1rem auto;
+    height: 4vh;
+    width: 10vw;
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+
+}
+
+.table-change {
+    margin: auto;
+    width: 50vw;
+    border-collapse: collapse;
+
+}
+
+
+th, td{
+    border: 2.5px solid var(--primary-color);
+    padding: 0.5rem;
+    text-align: center;
+    width: 0vw;
+     font-weight: bold;
+     color: var(--black);
+}
+
+footer {
+    margin: 2rem;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: large;
+
+  
+}
+
+.list-icons {
+    margin-right: 2.5rem;
+}
+
+
+
+img {
+
+    width: 40px;
+}
+
+
+
+
+a, img, li {
+    display: inline;
+
 
 }
