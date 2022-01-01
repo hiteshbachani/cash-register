@@ -78,6 +78,12 @@ input {
 
 }
 
+#errorMessage {
+    text-align: center;
+    font-size: larger;
+    color: red;
+}
+
 .table-change {
     margin: auto;
     width: 50vw;
